@@ -189,10 +189,10 @@ div section p{
 .contenedorF{
        height: 100vh;
        display: grid;
-       grid-template-rows: 0.3fr 2.5fr  0.3fr;
+       grid-template-rows: 0.5fr 1fr  0.3fr;
        grid-template-areas: "header header" 
                             
-                            "sectionF sectionF2"
+                            "Carousel Carousel"
                      
                             "footer footer" ;
        gap: 3px;
@@ -211,6 +211,9 @@ div section p{
 }
 .sectionF3{
        display: none;
+}
+.Carousel{
+       grid-area: Carousel;
 }
 
 /*-------------------SOBRE NOSOTROS--------------------*/
@@ -286,7 +289,7 @@ div section p{
               grid-template-rows: 0.3fr 2.5fr  0.3fr;
               grid-template-areas: "header header header" 
                                    
-                                   "sectionF sectionF2 sectionF3"
+                                   "Carousel Carousel Carousel"
                             
                                    "footer footer footer" ;
               gap: 3px;
