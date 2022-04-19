@@ -92,7 +92,7 @@ footer p{
 .contenedorC{
        height: 100vh;
        display: grid;
-       grid-template-rows: 0.2fr 0.4fr 1fr  0.2fr;
+       grid-template-rows: 0.12fr 0.4fr 1fr  0.2fr;
        grid-template-areas: "header header header" 
                             "sectionF sectionF sectionF"
                             "section section2 section3"
@@ -138,7 +138,7 @@ div section img:hover{
 .contenedorS{
        height: 100vh;
        display: grid;
-       grid-template-rows: 0.2fr 1fr 1fr 0.3fr;
+       grid-template-rows: 0.17fr 1fr 1fr 0.3fr;
        grid-template-areas: "header header" 
                             
                             "sectionS sectionS2"
@@ -189,14 +189,29 @@ div section p{
 .contenedorF{
        height: 100vh;
        display: grid;
-       grid-template-rows: 0.5fr 1fr  0.3fr;
+       grid-template-rows: 0.3fr 3fr  0.3fr;
        grid-template-areas: "header header" 
                             
                             "Carousel Carousel"
                      
                             "footer footer" ;
        gap: 3px;
+       font-family: 'Times New Roman', Times, serif;
 }
+header h1{
+       font-size: 25px;
+       font-family: 'Times New Roman', Times, serif;
+       font-weight: bold;
+}
+header{
+       display: flex;
+       align-content: center;
+       align-items: center;
+       text-align: center;
+       align-self: center;
+       justify-items: center;
+}
+
 .sectionF{
        grid-area: sectionF;
        display: flex;
@@ -261,6 +276,10 @@ div section p{
        .section img{
               width: 15vh;
               height: 15vh;
+       }
+       /*---Fotos---*/
+       .Carousel{
+              padding-top: 90px;
        }
 }
 @media only screen and (min-width:1000px){
